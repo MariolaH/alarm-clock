@@ -15,4 +15,5 @@ body {
   font-size: 50px;
   border: 10px solid rgb(239, 232, 232);
   padding: 30px;
+  box-shadow: 0 0 0 12px rgb(200, 17, 181);
 }
