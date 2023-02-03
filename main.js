@@ -14,6 +14,14 @@ function displayTime(){
         hrs = hrs - 12;
     }
 
+    // if(min < 10) {
+    //     min = “0” + min
+    // }   
+    // if(sec < 10) {
+    //     sec = “0” + min
+    // }    
+ 
+
     document.getElementById('hours').innerHTML = hrs;
     document.getElementById('minutes').innerHTML = min;
     document.getElementById('seconds').innerHTML = sec;
