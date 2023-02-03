@@ -14,12 +14,12 @@ function displayTime(){
         hrs = hrs - 12;
     }
 
-    // if(min < 10) {
-    //     min = “0” + min
-    // }   
-    // if(sec < 10) {
-    //     sec = “0” + min
-    // }    
+    if(min < 10) {
+        min = '0' + min
+    }   
+    if(sec < 10) {
+        sec = '0' + sec
+    }    
  
 
     document.getElementById('hours').innerHTML = hrs;
@@ -27,4 +27,4 @@ function displayTime(){
     document.getElementById('seconds').innerHTML = sec;
 
 }
-setInterval(displayTime, 10);
+setInterval(displayTime, 1000);
