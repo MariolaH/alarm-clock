@@ -1,7 +1,7 @@
 function displayTime(){
     var dateTime = new Date();
     var hrs = dateTime.getHours();
-    var min = dateTime.getMintues();
+    var min = dateTime.getMinutes();
     var sec = dateTime.getSeconds();
     var session = document.getElementById('session');
 
@@ -14,7 +14,7 @@ function displayTime(){
         hrs = hrs - 12;
     }
 
-    document.getElementById('hour').innerHTML = hrs;
+    document.getElementById('hours').innerHTML = hrs;
     document.getElementById('minutes').innerHTML = min;
     document.getElementById('seconds').innerHTML = sec;
 
