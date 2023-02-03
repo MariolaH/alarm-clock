@@ -12,6 +12,7 @@ function displayTime() {
     } else {
         session.innerHTML = "AM";
     }
+     // converts military time to standard time 
     if (hrs > 12) {
         hrs = hrs - 12;
     }
@@ -25,7 +26,7 @@ function displayTime() {
         sec = '0' + sec
     }
 
-    // code that grabs <span> from html
+    // code that grabs element from html
 
     document.getElementById('hours').innerHTML = hrs;
     document.getElementById('minutes').innerHTML = min;
